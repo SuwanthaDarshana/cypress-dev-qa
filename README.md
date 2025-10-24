@@ -66,6 +66,3 @@ cypress-dev-qa/
 - Reuse custom commands in `cypress/support/commands.js`  
 - Maintain clean folder structure for scalability  
 
-
-📧 suwanthadarshana@example.com  
-🔗 [GitHub Profile](https://github.com/SuwanthaDarshana)
