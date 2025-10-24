@@ -6,14 +6,13 @@ It helps verify both backend API responses and frontend user interactions effici
 ---
 
 ## 📂 Project Structure
+```
 cypress-dev-qa/
 │
-├── API-testing/ # Contains API test cases
-├── UI-testing/ # Contains UI test cases
+├── API-testing/      # Contains API test cases
+├── UI-testing/       # Contains UI test cases
 └── README.md
-
-yaml
-Copy code
+```
 
 ---
 
@@ -29,40 +28,44 @@ Copy code
 1. **Clone the Repository**
    ```bash
    git clone https://github.com/SuwanthaDarshana/cypress-dev-qa.git
-Navigate to the Project Directory
+   ```
 
-bash
-Copy code
-cd cypress-dev-qa
-Install Dependencies
+2. **Navigate to the Project Directory**
+   ```bash
+   cd cypress-dev-qa
+   ```
 
-bash
-Copy code
-npm install
-Run Tests in Cypress Test Runner
+3. **Install Dependencies**
+   ```bash
+   npm install
+   ```
 
-bash
-Copy code
-npx cypress open
-Run Tests in Headless Mode
+4. **Run Tests in Cypress Test Runner**
+   ```bash
+   npx cypress open
+   ```
 
-bash
-Copy code
-npx cypress run
-🧾 Example Tests
-✅ Validate API response status and data
+5. **Run Tests in Headless Mode**
+   ```bash
+   npx cypress run
+   ```
 
-✅ Verify login and navigation flow
+---
 
-✅ Test form submissions and error messages
+## 🧾 Example Tests
+- ✅ Validate API response status and data  
+- ✅ Verify login and navigation flow  
+- ✅ Test form submissions and error messages  
+- ✅ End-to-end UI and API integration checks  
 
-✅ End-to-end UI and API integration checks
+---
 
-💡 Best Practices
-Keep tests independent and modular
+## 💡 Best Practices
+- Keep tests independent and modular  
+- Use fixtures for test data  
+- Reuse custom commands in `cypress/support/commands.js`  
+- Maintain clean folder structure for scalability  
 
-Use fixtures for test data
 
-Reuse custom commands in cypress/support/commands.js
-
-Maintain clean folder structure for scalability
+📧 suwanthadarshana@example.com  
+🔗 [GitHub Profile](https://github.com/SuwanthaDarshana)
